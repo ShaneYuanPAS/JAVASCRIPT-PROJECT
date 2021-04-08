@@ -90,7 +90,7 @@ function camouflage() {
     document.getElementById("quit").onclick = reload; 
     document.getElementById("quit").innerText = "Try another option in game" ;
     document.querySelector(".game").style.color = "white";
-    document.querySelector(".textinside").innerText = "You wear a jacket and a hat and walk very fast. The teachers was busy talking and not really looking at you. You escape away and walk into the hospital and went buy some food at the basement resturant. You felt so happy......VICTORY~~~~!!!!! "
+    document.querySelector(".textinside").innerText = "You wear a jacket and a hat and walk very fast. The teachers were all busy talking and not really looking at you. You escape away and walk into the hospital and went buy some food at the basement resturant. You felt so happy......VICTORY~~~~!!!!! "
     document.querySelector("body").style.backgroundImage = 'url("https://p1-news.hfcdn.com/p1-news/MjAwOTA4Mm5ld3M,/ba85c15c72a68f8b_1200x573.jpg/qs/w=600&h=600&r=16888")'
 }
 function savage() {
