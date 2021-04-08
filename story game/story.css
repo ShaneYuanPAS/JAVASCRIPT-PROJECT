@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(116, 115, 115);
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+}
+.homepageimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 600px;
+}
+.textinside {
+    text-align: center;
+    margin-bottom: 30px;
+    color: red;
+    font-size: 40px;
+}
+.game {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 5vh;
+}
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.but > button {
+    font-size: 30px;
+    margin-left: 30px;
+}
