@@ -1,0 +1,60 @@
+body {
+    color: orange;
+    background-color: rgb(30, 30, 161);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.topmargin {
+    display: flex;
+    height: 150px;
+}
+.title {
+    font-size: 60px;
+    margin: auto;
+    margin-top: 10px;
+    color: red;
+}
+a:link {
+    color: yellow;
+}
+a {color: yellow;}   
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;} 
+.hi {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 80fr;
+    margin: auto
+    
+}
+
+.guitar {
+    font-size: 40px;
+    border-style: groove;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+}
+
+.piano {
+    font-size: 40px;
+    border-style: groove;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+}
+
+.drum {
+    font-size: 40px;
+    border-style: groove;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+}
