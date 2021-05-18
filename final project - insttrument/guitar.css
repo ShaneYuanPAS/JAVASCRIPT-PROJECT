@@ -4,30 +4,33 @@
     border: 0;
 }
 
-body {
-    background-color: rgb(138, 64, 64);
-}
+/* body {
+    background-image: url("guiimg.png");
+} */
 
 .guitar-box {
-    margin-top: 5vh;
-    background-image: url("guitar.jpeg");
-    height: 90vh;
-    width: 77vw;
+    margin-left: 90px;
+    margin-top: 20px;
+    height: 60vh;
+    width: 1200px;
+    padding-top: 270px;
     position: absolute;
+    background-image: url("guiimg.png");
 }
 
-.stringb {
+/* .stringtop {
     margin-left: 65px;
     height: 10px;
     width: 77vw;
     background-color: orange;
-    margin-top: 74px;
-}
+    margin-top: 229px;
+    margin-bottom: 120px;
+} */
 
 .string {
-    margin-left: 65px;
+    margin-left: 0px;
     height: 10px;
-    width: 77vw;
-    background-color: orange;
-    margin-top: 97px;
+    width: 100%;
+    background-color: gold;
+    margin-top: 60px;
 }
